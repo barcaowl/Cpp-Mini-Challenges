@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int i = 1; 
+float fizz, buzz; 
+
+
+for (i=1; i<=100; i++)
+{
+   fizz = i%3;
+   buzz = i%5;
+   
+   if (fizz == 0) 
+   {
+       cout<<"fizz";
+   }
+   if (buzz == 0) 
+   {
+       cout<<"buzz"; 
+   }
+   cout<<endl;
+}
+
+
+    return 0;
+}
